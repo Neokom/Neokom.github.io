@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #DADADA;
+}
+
+.big_wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    background: white;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+.twit img {
+    height: 15px;
+    color: #909090;
+    margin: 5px 40px;
+}
+
+.exit a {
+    text-decoration: none;
+    color: #909090;
+}
+
+.exit {
+    margin-left: 70%;
+    padding-top: 5px;
+}
+
+.line {
+    border-bottom: 1px solid #909090;
+}
+
+.header2 {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+}
+
+.mini_logo img {
+    margin-left: 50px;
+}
+
+.input {
+    display: flex;
+    margin-left: 15%;
+    align-items: center;
+}
+
+.pic {
+    background: #FF0000;
+    width: 50px;
+}
+
+.shop img {
+    height: 40px;
+    margin-left: 300px;
+}
+
+.shop span {
+    margin-left: 15px;
+}
+
+.menu ul {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    background: #FF0000;
+    color: white;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+}
+
+.lab_img img {
+    margin-left: 150px;
+}
+
+.lab_info {
+    margin-left: 200px;
+}
+
+.lab_info p:nth-child(1) {
+    font-size: 40px;
+    color: #636363;
+    margin: 0;
+}
+
+.lab_info p:nth-child(2) {
+    font-size: 20px;
+    color: #FF0000;
+    margin: 0;
+}
+
+.lab_info p:nth-child(3) {
+    margin-top: 5px;
+}
+
+.lab_info div {
+    border: 1px solid red;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-weight: 700;
+}
+
+.sale {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sale div {
+    background: #FF0000;
+    width: 350px;
+    color: white;
+    text-align: center;
+    min-height: 180px;
+}
+
+.sale div p:nth-child(1) {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.sale a {
+    color: white;
+    font-size: 20px;
+    /*box-sizing: border-box;*/
+    /*margin: 10px;*/
+}
